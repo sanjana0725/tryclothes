@@ -1,0 +1,116 @@
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after {
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+
+}
+
+#header{
+    color: #fff;
+    background: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    padding: 25px 25px;
+    display: block;
+}
+#menu li a:hover{
+    background: #c0392b;
+}
+
+#banner{
+    background: url('1.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 10rem;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(231, 76, 60);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+#testimonials{
+    background: url('2.jpg') no-repeat 0 0;;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+}
+
+#news 
